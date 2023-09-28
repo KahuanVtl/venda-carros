@@ -1,0 +1,42 @@
+.header-container {
+    background-color: #3E3636;
+    display: grid;
+    grid-template-columns: 16% 1fr 16% ;
+    align-items: center;
+}
+
+.header-logo {
+    padding: 1.75rem 0 1.75rem 1.75rem;
+}
+
+.header-lista {
+    display: flex;
+    border-left: 3px solid #D72323;
+    border-right: 3px solid #D72323;
+    justify-content: center;
+}
+
+.header-ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+}
+
+.header-li {
+    color: #F5EDED;
+    text-decoration: none;
+    padding: 0 2.625rem 0 2.625rem;
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.header-icones {
+    display: flex;
+    padding: 1.5625rem;
+}
+
+.header-icones img {
+    margin: 0 0.781rem;
+}
